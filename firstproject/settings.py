@@ -23,10 +23,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '@bm8a$3haw$!^8v&fxn&f(sogu3kc#1md&a9gq=9i-vw_huul#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
-#DEBUG = True
+#DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','mahinews2.herokuapp.com','mahinews2.herokuapp.com/']
+ALLOWED_HOSTS = ['*']
 #ALLOWED_HOSTS = []
 
 # Application definition
